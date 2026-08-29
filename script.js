@@ -2,14 +2,16 @@ const images = {
   laptop: "assets/images/chibi-laptop.svg",
   headset: "assets/images/chibi-headset.svg",
   tablet: "assets/images/chibi-tablet.svg",
-  reading: "assets/images/chibi-reading.svg"
+  reading: "assets/images/chibi-reading.svg",
+  prueba: "assets/images/prueba.png"
 };
 
 const labels = {
   laptop: "Chibi con portátil",
   headset: "Chibi gaming con auriculares",
   tablet: "Chibi con tablet",
-  reading: "Chibi leyendo"
+  reading: "Chibi leyendo",
+  prueba: "assets/images/prueba.png"
 };
 
 document.querySelectorAll("select[data-section]").forEach(select => {
